@@ -5,7 +5,7 @@ const AboutComponent = (props) => {
     <div className="w3-row-padding w3-grayscale">
       {props.people.map((person) => {
         return (
-          <div>
+          <div key={person.name}>
             <div className="w3-col l3 m6 w3-margin-bottom">
               <img src={person.image} alt="John" style={{ width: "100%" }} />
               <h3>{person.name}</h3>

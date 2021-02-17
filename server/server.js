@@ -1,10 +1,12 @@
 const mongoose = require('mongoose')
 const express = require('express')
 const app = express()
+var cors = require('cors')
 const port = 4000
 var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({extended: false}))
 
+app.use(cors())
 mongoose.connect('mongodb+srv://cagatayKaban:KENA0AZBHA6PWyca@recipe.svorc.mongodb.net/RecipeHW?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true})
 
 const { Schema } = mongoose;

@@ -11,10 +11,10 @@ const PageContent = () => {
         {title: 'Brick House', image: 'https://www.w3schools.com/w3images/house2.jpg'},
         {title: 'Renovated', image: 'https://www.w3schools.com/w3images/house3.jpg'},
         {title: 'Barn House', image: 'https://www.w3schools.com/w3images/house4.jpg'},
-        {title: 'Summer House', image: 'https://www.w3schools.com/w3images/house5.jpg'},
-        {title: 'Brick House', image: 'https://www.w3schools.com/w3images/house2.jpg'},
-        {title: 'Renovated', image: 'https://www.w3schools.com/w3images/house3.jpg'},
-        {title: 'Barn House', image: 'https://www.w3schools.com/w3images/house4.jpg'},  
+        {title: 'Summer House2', image: 'https://www.w3schools.com/w3images/house5.jpg'},
+        {title: 'Brick House2', image: 'https://www.w3schools.com/w3images/house2.jpg'},
+        {title: 'Renovated2', image: 'https://www.w3schools.com/w3images/house3.jpg'},
+        {title: 'Barn House2', image: 'https://www.w3schools.com/w3images/house4.jpg'},  
     ]
 
   
